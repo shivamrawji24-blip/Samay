@@ -1,0 +1,172 @@
+{
+  "subjects": [
+    {
+      "code": "MATH",
+      "weekly_hours": 2
+    },
+    {
+      "code": "AI",
+      "weekly_hours": 2
+    },
+    {
+      "code": "DAA",
+      "weekly_hours": 2
+    }
+  ],
+  "batches": [
+    {
+      "name": "CSE-A",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-B",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-C",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-D",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-E",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-F",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-G",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-H",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    }
+  ],
+  "rooms": [
+    {
+      "name": "R101",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "R102",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "R103",
+      "capacity": 60,
+      "type": "classroom"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "T_MATH1",
+      "subjects": [
+        "MATH"
+      ],
+      "max_weekly_load": 30
+    },
+    {
+      "name": "T_MATH2",
+      "subjects": [
+        "MATH"
+      ],
+      "max_weekly_load": 30
+    },
+    {
+      "name": "T_AI1",
+      "subjects": [
+        "AI"
+      ],
+      "max_weekly_load": 30
+    },
+    {
+      "name": "T_AI2",
+      "subjects": [
+        "AI"
+      ],
+      "max_weekly_load": 30
+    },
+    {
+      "name": "T_DAA1",
+      "subjects": [
+        "DAA"
+      ],
+      "max_weekly_load": 30
+    },
+    {
+      "name": "T_DAA2",
+      "subjects": [
+        "DAA"
+      ],
+      "max_weekly_load": 30
+    }
+  ],
+  "time_structure": {
+    "working_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 6,
+    "break_periods": [
+      3
+    ]
+  }
+}

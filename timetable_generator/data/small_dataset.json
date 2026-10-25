@@ -1,0 +1,121 @@
+{
+  "subjects": [
+    {
+      "code": "MATH",
+      "weekly_hours": 3
+    },
+    {
+      "code": "AI",
+      "weekly_hours": 3
+    },
+    {
+      "code": "DAA",
+      "weekly_hours": 3
+    },
+    {
+      "code": "AIP",
+      "weekly_hours": 2,
+      "type": "lab",
+      "lab_duration": 2
+    }
+  ],
+  "batches": [
+    {
+      "name": "CSE-A",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA",
+        "AIP"
+      ],
+      "strength": 35,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-B",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA",
+        "AIP"
+      ],
+      "strength": 30,
+      "lunch_slot": 4
+    },
+    {
+      "name": "CSE-C",
+      "subjects": [
+        "MATH",
+        "AI",
+        "DAA"
+      ],
+      "strength": 28,
+      "lunch_slot": 4
+    }
+  ],
+  "rooms": [
+    {
+      "name": "R101",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "R102",
+      "capacity": 45,
+      "type": "classroom"
+    },
+    {
+      "name": "LAB1",
+      "capacity": 40,
+      "type": "lab"
+    },
+    {
+      "name": "LAB2",
+      "capacity": 40,
+      "type": "lab"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "T_MATH",
+      "subjects": [
+        "MATH"
+      ],
+      "max_weekly_load": 20
+    },
+    {
+      "name": "T_AI",
+      "subjects": [
+        "AI"
+      ],
+      "max_weekly_load": 20
+    },
+    {
+      "name": "T_DAA",
+      "subjects": [
+        "DAA"
+      ],
+      "max_weekly_load": 20
+    },
+    {
+      "name": "T_AIP",
+      "subjects": [
+        "AIP"
+      ],
+      "max_weekly_load": 20
+    }
+  ],
+  "time_structure": {
+    "working_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 6,
+    "break_periods": [
+      3
+    ]
+  }
+}
